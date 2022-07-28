@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_auth_login.urls'
+ROOT_URLCONF = 'django_drf_token_authentication.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_auth_login.wsgi.application'
+WSGI_APPLICATION = 'django_drf_token_authentication.wsgi.application'
 
 
 
