@@ -92,7 +92,7 @@ REST_FRAMEWORK = {
     ),
 }
 
-# AUTH_USER_MODEL = 'main.CustomUser'
+AUTH_USER_MODEL = 'main.CustomUser'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = env('STATIC_URL')
